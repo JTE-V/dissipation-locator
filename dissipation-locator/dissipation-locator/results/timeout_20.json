@@ -1,0 +1,79 @@
+{
+  "E_int": 0.0,
+  "E_leak": 0.0,
+  "E_ext": 0.0,
+  "suspects": [
+    {
+      "function": "handle_search",
+      "cpu_s": 0.037734,
+      "share": 0.829
+    },
+    {
+      "function": "scan_history",
+      "cpu_s": 0.007799,
+      "share": 0.171
+    }
+  ],
+  "series": [
+    {
+      "t": 12.018,
+      "cpu": 0.043797,
+      "work": 90,
+      "cpu_per_work": 0.000487,
+      "z_cpu": 2.827,
+      "z_smooth": 2.827,
+      "z_rss": 3.372,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    },
+    {
+      "t": 16.024,
+      "cpu": 0.0384,
+      "work": 80,
+      "cpu_per_work": 0.00048,
+      "z_cpu": 2.516,
+      "z_smooth": 2.672,
+      "z_rss": 7.419,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    }
+  ],
+  "measure_windows": 2,
+  "measure_seconds": 7.52,
+  "mean_z_smooth": 2.75,
+  "peak_queue": 0,
+  "peak_threads": 4,
+  "peak_p99_ms": 0.0,
+  "dropped": 0,
+  "mode": "search",
+  "fixed": false,
+  "variant": "timeout",
+  "duration": 20.0,
+  "rate": 100.0,
+  "n": 500,
+  "sent": 454,
+  "errors": [],
+  "baseline": {
+    "t_end": 12.0,
+    "cpu_per_work": 0.000426,
+    "mad_cpu": 2.1e-05,
+    "mu_rss": 23530.0,
+    "sd_rss": 2.9652,
+    "mu_io": 0.0,
+    "sd_io": 0.0,
+    "k_ref": 2345.409184
+  },
+  "suggestions": []
+}

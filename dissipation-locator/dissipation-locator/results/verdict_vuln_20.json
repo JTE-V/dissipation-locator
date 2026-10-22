@@ -1,0 +1,97 @@
+{
+  "E_int": 0.0,
+  "E_leak": 0.0,
+  "E_ext": 0.0,
+  "suspects": [
+    {
+      "function": "handle_search",
+      "cpu_s": 0.008533,
+      "share": 0.559
+    },
+    {
+      "function": "scan_history",
+      "cpu_s": 0.006737,
+      "share": 0.441
+    }
+  ],
+  "series": [
+    {
+      "t": 12.019,
+      "cpu": 0.02275,
+      "work": 90,
+      "cpu_per_work": 0.000253,
+      "z_cpu": -0.203,
+      "z_smooth": -0.203,
+      "z_rss": 2.923,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    },
+    {
+      "t": 16.025,
+      "cpu": 0.026722,
+      "work": 80,
+      "cpu_per_work": 0.000334,
+      "z_cpu": 6.16,
+      "z_smooth": 2.978,
+      "z_rss": 3.822,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    }
+  ],
+  "measure_windows": 2,
+  "measure_seconds": 7.53,
+  "mean_z_smooth": 1.388,
+  "peak_queue": 0,
+  "peak_threads": 4,
+  "peak_p99_ms": 0.0,
+  "dropped": 0,
+  "search_timeouts": 0,
+  "transient_peaks": 1,
+  "verdict": "insufficient_window",
+  "backpressure": {
+    "verdict": "no_load",
+    "arrived": 0,
+    "dropped": 0,
+    "reject_rate": 0.0,
+    "blocked_events": 0,
+    "blocked_ms_per_job": 0.0,
+    "max_block_ms": 0.0,
+    "wait_ms_per_job": 0.0,
+    "max_wait_ms": 0.0
+  },
+  "mode": "search",
+  "fixed": false,
+  "variant": "none",
+  "duration": 20.0,
+  "rate": 100.0,
+  "n": 500,
+  "sent": 455,
+  "errors": [],
+  "baseline": {
+    "t_end": 12.0,
+    "cpu_per_work": 0.000255,
+    "mad_cpu": 1.3e-05,
+    "stable": true,
+    "rel_mad": 0.0015,
+    "spread": 0.0021,
+    "samples": 2,
+    "mu_rss": 23534.0,
+    "sd_rss": 8.8956,
+    "mu_io": 0.0,
+    "sd_io": 0.0,
+    "k_ref": 3915.831146
+  },
+  "suggestions": []
+}

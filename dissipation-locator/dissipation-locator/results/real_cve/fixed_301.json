@@ -1,0 +1,81 @@
+{
+  "label": "fixed_301",
+  "cve": "CVE-2023-46136",
+  "werkzeug": "3.0.1",
+  "size_kb": 8192,
+  "rate": 1.0,
+  "baseline_seconds": 12.0,
+  "measure_seconds": 28.0,
+  "baseline_cpu_per_req_ms": 13.074,
+  "baseline_mad_ms": 0.654,
+  "baseline_stable": true,
+  "baseline_blocks": [
+    {
+      "t": 0.0,
+      "work": 4,
+      "cpu_per_req_ms": 13.529
+    },
+    {
+      "t": 4.0,
+      "work": 4,
+      "cpu_per_req_ms": 13.074
+    },
+    {
+      "t": 8.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.529
+    }
+  ],
+  "measure_blocks": [
+    {
+      "t": 12.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.041,
+      "z": -1.58
+    },
+    {
+      "t": 16.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.193,
+      "z": -1.35
+    },
+    {
+      "t": 20.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.569,
+      "z": -0.77
+    },
+    {
+      "t": 24.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.147,
+      "z": -1.42
+    },
+    {
+      "t": 28.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.253,
+      "z": -1.26
+    },
+    {
+      "t": 32.0,
+      "work": 4,
+      "cpu_per_req_ms": 12.617,
+      "z": -0.7
+    },
+    {
+      "t": 36.0,
+      "work": 4,
+      "cpu_per_req_ms": 11.922,
+      "z": -1.76
+    }
+  ],
+  "smooth_z": [
+    -1.35,
+    -1.35,
+    -1.26,
+    -1.26,
+    -1.26
+  ],
+  "verdict": "clean"
+}

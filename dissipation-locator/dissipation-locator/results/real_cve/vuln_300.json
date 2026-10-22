@@ -1,0 +1,81 @@
+{
+  "label": "vuln_300",
+  "cve": "CVE-2023-46136",
+  "werkzeug": "3.0.0",
+  "size_kb": 8192,
+  "rate": 1.0,
+  "baseline_seconds": 12.0,
+  "measure_seconds": 28.0,
+  "baseline_cpu_per_req_ms": 11.989,
+  "baseline_mad_ms": 0.599,
+  "baseline_stable": true,
+  "baseline_blocks": [
+    {
+      "t": 0.0,
+      "work": 4,
+      "cpu_per_req_ms": 14.336
+    },
+    {
+      "t": 4.0,
+      "work": 4,
+      "cpu_per_req_ms": 11.989
+    },
+    {
+      "t": 8.0,
+      "work": 4,
+      "cpu_per_req_ms": 11.874
+    }
+  ],
+  "measure_blocks": [
+    {
+      "t": 12.0,
+      "work": 4,
+      "cpu_per_req_ms": 299.422,
+      "z": 479.49
+    },
+    {
+      "t": 16.0,
+      "work": 4,
+      "cpu_per_req_ms": 294.496,
+      "z": 471.28
+    },
+    {
+      "t": 20.0,
+      "work": 4,
+      "cpu_per_req_ms": 290.281,
+      "z": 464.25
+    },
+    {
+      "t": 24.0,
+      "work": 4,
+      "cpu_per_req_ms": 287.39,
+      "z": 459.42
+    },
+    {
+      "t": 28.0,
+      "work": 4,
+      "cpu_per_req_ms": 286.766,
+      "z": 458.38
+    },
+    {
+      "t": 32.0,
+      "work": 4,
+      "cpu_per_req_ms": 288.645,
+      "z": 461.52
+    },
+    {
+      "t": 36.0,
+      "work": 4,
+      "cpu_per_req_ms": 286.447,
+      "z": 457.85
+    }
+  ],
+  "smooth_z": [
+    471.28,
+    464.25,
+    459.42,
+    459.42,
+    458.38
+  ],
+  "verdict": "sustained"
+}

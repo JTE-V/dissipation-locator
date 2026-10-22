@@ -1,0 +1,92 @@
+{
+  "E_int": 0.0,
+  "E_leak": 0.0,
+  "E_ext": 0.0,
+  "suspects": [
+    {
+      "function": "handle_search",
+      "cpu_s": 0.000855,
+      "share": 1.0
+    }
+  ],
+  "series": [
+    {
+      "t": 12.018,
+      "cpu": 0.023333,
+      "work": 90,
+      "cpu_per_work": 0.000259,
+      "z_cpu": 0.393,
+      "z_smooth": 0.393,
+      "z_rss": 4000000000.0,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    },
+    {
+      "t": 16.024,
+      "cpu": 0.019438,
+      "work": 80,
+      "cpu_per_work": 0.000243,
+      "z_cpu": -0.292,
+      "z_smooth": 0.051,
+      "z_rss": 8000000000.0,
+      "z_io": 0.0,
+      "e_int_rate": 0.0,
+      "e_leak": 0.0,
+      "queue": 0,
+      "threads": 4,
+      "p99_ms": 0.0,
+      "dropped": 0,
+      "e_ext_rate": 0.0
+    }
+  ],
+  "measure_windows": 2,
+  "measure_seconds": 7.53,
+  "mean_z_smooth": 0.222,
+  "peak_queue": 0,
+  "peak_threads": 4,
+  "peak_p99_ms": 0.0,
+  "dropped": 0,
+  "search_timeouts": 0,
+  "transient_peaks": 0,
+  "verdict": "insufficient_window",
+  "backpressure": {
+    "verdict": "no_load",
+    "arrived": 0,
+    "dropped": 0,
+    "reject_rate": 0.0,
+    "blocked_events": 0,
+    "blocked_ms_per_job": 0.0,
+    "max_block_ms": 0.0,
+    "wait_ms_per_job": 0.0,
+    "max_wait_ms": 0.0
+  },
+  "mode": "search",
+  "fixed": true,
+  "variant": "none",
+  "duration": 20.0,
+  "rate": 100.0,
+  "n": 500,
+  "sent": 455,
+  "errors": [],
+  "baseline": {
+    "t_end": 12.0,
+    "cpu_per_work": 0.00025,
+    "mad_cpu": 2.4e-05,
+    "stable": true,
+    "rel_mad": 0.0951,
+    "spread": 0.1283,
+    "samples": 2,
+    "mu_rss": 23332.0,
+    "sd_rss": 0.0,
+    "mu_io": 0.0,
+    "sd_io": 0.0,
+    "k_ref": 4001.407088
+  },
+  "suggestions": []
+}
